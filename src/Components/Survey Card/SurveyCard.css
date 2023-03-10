@@ -1,0 +1,157 @@
+.survey-card-container {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  columns: 2 auto;
+}
+.survey-card {
+  justify-content: space-between;
+  border: 1px solid #dfdfdf;
+  flex-basis: 45%;
+  padding: 2rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.3rem 1rem rgb(0 0 0 / 0.2);
+  margin-bottom: 10px;
+}
+.card-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rating-text {
+  font-size: 1.4rem;
+  color: #1c3b71;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.active-icon {
+  font-size: 2rem;
+
+  display: flex;
+}
+.survey-holder-divider2 {
+  border-bottom: 1px solid #dfdfdf;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.desc-heading {
+  font-size: 1.4rem;
+  color: #3a3a3a;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.readmore-text {
+  font-size: 1.4rem;
+  color: #7a7a7a;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin-top: 1rem;
+}
+.read-more-less--more {
+  color: #3d6ab8;
+  text-decoration: underline;
+}
+.read-more-less--less {
+  color: #3d6ab8;
+  text-decoration: underline;
+}
+.tags-heading {
+  font-size: 1.4rem;
+  color: #3a3a3a;
+  font-family: "Poppins";
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+.tag-text {
+  font-size: 1.1rem;
+  color: #ffffff;
+  border: 1px solid #3d6ab8;
+  background-color: #3d6ab8;
+  padding: 0.6rem 1.2rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  border-radius: 5rem;
+}
+.selected-tag {
+  display: flex;
+  margin-top: 10px;
+  /* justify-content: space-between; */
+}
+.survey-holder-divider3 {
+  border-bottom: 1px solid #dfdfdf;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.icons-list {
+  list-style: none;
+  font-size: 2rem;
+  display: flex;
+}
+.icons-list > li {
+  margin-right: 1.5rem;
+  color: #9a9a9a;
+  cursor: pointer;
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.details-btn {
+  font-size: 1.6rem;
+  color: #3d6ab8;
+  font-family: "Poppins";
+  font-weight: 400;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.paginationBttns {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+
+  margin-top: 20px;
+}
+
+.paginationBttns a {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 2px;
+  border: 1px solid #3d6ab8;
+  color: #3d6ab8;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #3d6ab8;
+}
+.paginationActive a {
+  color: white;
+  background-color: #3d6ab8;
+}
+
+.paginationDisabled a {
+  color: #3d6ab8;
+}
+
+.survey-card-containerGrid {
+  display: grid;
+  margin-bottom: 2rem;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 854px) {
+  .survey-card-container {
+    flex-direction: column;
+    columns: auto;
+  }
+  .survey-card-containerGrid {
+    display: block;
+  }
+  .paginationBttns {
+    justify-content: center;
+  }
+}

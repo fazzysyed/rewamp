@@ -1,0 +1,65 @@
+.create-survey-container {
+    max-width: 100%;
+    padding: 3rem;
+    background-color: #EEEEEE;
+}
+.create-survey-holder {
+    box-shadow: 0 .3rem 1rem rgb(0 0 0 / 0.2);
+    background-color: #fff;
+    padding: 3rem;
+}
+.create-primary-heading {
+    font-size: 2rem;
+    color: #122838;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.create-survey-divider {
+    border-bottom: 1px solid #DFDFDF;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.create-survey-card {
+    cursor: pointer;
+    border: 1px solid #ABBFE3;
+    border-radius: 1.2rem;
+    background-color: #E9E9E9;
+    display: flex;
+    width: 18rem;
+    justify-content: center;
+    height: 27.2rem;
+    align-items: center;
+}
+.create-survey-icon {
+    width: 4rem;
+    height: 4rem;
+}
+.create-card-section {
+    display: flex;
+}
+.marg-l {
+    margin-left: 4rem;
+}
+
+@media only screen and (max-width: 854px) {
+    .create-card-section {
+      flex-direction: column;
+    }
+    .create-survey-card {
+      width: 100%;
+      height: 9.2rem;
+    }
+    .marg-l {
+      margin-left: 0;
+    }
+    .create-surveycard-container {
+        flex-direction: column;
+    }
+    .create-surveycard {
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .create-survey-container {
+        padding: 1rem;
+    }
+  }

@@ -1,0 +1,66 @@
+.create-surveycard-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.create-surveycard {
+  border: 1px solid #dfdfdf;
+  width: 28.8rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.3rem 1rem rgb(0 0 0 / 0.2);
+  margin-right: 1.5rem;
+}
+.create-image-placeholder {
+  width: 100%;
+}
+.create-text-section {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+.create-text {
+  font-size: 1.4rem;
+  color: #1c3b71;
+  font-family: "Poppins";
+  font-weight: 600;
+  /* margin-left: 1rem; */
+}
+.add-survey-divider {
+  border-bottom: 1px solid #dfdfdf;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.divider-padd {
+  padding: 0 2rem;
+}
+.preview-list {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+.preview-list > li {
+  margin-left: 2rem;
+  font-size: 1.4rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #9a9a9a;
+  display: flex;
+  align-items: center;
+}
+.preview-icon {
+  color: #3d6ab8;
+}
+.preview-list > li > .preview-icon {
+  display: flex;
+  align-items: center;
+}
+.temp-icon {
+  margin-right: 1rem;
+}
+.image-placeholder2 {
+  width: 100%;
+}

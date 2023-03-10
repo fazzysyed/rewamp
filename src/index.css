@@ -1,0 +1,79 @@
+html {
+  font-size: 62.5%;
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+@media only screen and (max-width: 5121px) {
+  html {
+    font-size: 220%;
+  }
+}
+
+@media only screen and (max-width: 3841px) {
+  html {
+    font-size: 170%;
+  }
+}
+
+@media only screen and (max-width: 2561px) {
+  html {
+    font-size: 114%;
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  html {
+    font-size: 73%;
+  }
+}
+
+@media only screen and (max-width: 1601px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media only screen and (max-width: 1425px) {
+  html {
+    font-size: 62%;
+  }
+}
+
+@media only screen and (max-width: 1281px) {
+  html {
+    font-size: 54%;
+  }
+}
+
+@media only screen and (max-width: 1165px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  html {
+    font-size: 44%;
+  }
+}
+
+@media only screen and (max-width: 854px) {
+  html {
+    font-size: 55%;
+  }
+  .react-confirm-alert-body {
+    width: 35rem !important;
+  }
+}  

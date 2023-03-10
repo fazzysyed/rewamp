@@ -1,0 +1,137 @@
+.letscreate-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #eeeeee;
+}
+.create-fields-section {
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 11.8rem;
+}
+.heading-container {
+  margin-top: 5rem;
+  margin-right: 19rem;
+}
+.heading-container > h1 {
+  font-size: 3.6rem;
+  font-family: "Poppins";
+  font-weight: bold;
+  color: #1c3b71;
+}
+.survey-name-field {
+  margin-right: 6rem;
+  margin-top: 3rem;
+}
+.survey-name-field > p {
+  font-size: 2rem;
+  color: #1c3b71;
+  font-family: "Poppins";
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.survey-name-field > input {
+  width: 55rem;
+  font-size: 1.6rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #122838;
+  padding: 1.3rem 2rem;
+  border-radius: 8px;
+  border: 2px solid #d8d8d8;
+}
+.survey-account-select {
+  width: 55rem;
+  font-size: 1.6rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #3d6ab8;
+  padding: 1.3rem 2rem;
+  border-radius: 8px;
+  border: 2px solid #d8d8d8;
+}
+.tag-text-create {
+  font-size: 1.1rem;
+
+  border: 1px solid #3d6ab8;
+
+  padding: 0.6rem 1.2rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  border-radius: 5rem;
+  margin-right: 1.2rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.selected-tag-create {
+  display: flex;
+  margin-top: 10px;
+  width: 60rem;
+  flex-wrap: wrap;
+}
+.add-tag-create {
+  font-size: 1.1rem;
+  color: #3d6ab8;
+  border: 1px solid #3d6ab8;
+  background-color: #f5f5f5;
+  padding: 0.6rem 1.2rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  border-radius: 5rem;
+  margin-right: 1.2rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.create-category {
+  display: flex;
+  margin-top: 1rem;
+  position: relative;
+}
+.create-category-btn {
+  font-size: 1.4rem;
+  font-family: "Poppins";
+  font-weight: 300;
+  color: #fff;
+  background-color: #3d6ab8;
+  padding: 0.4rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-left: -7.2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.create-next-btn {
+  margin-left: 35rem;
+  margin-top: 3rem;
+}
+
+@media only screen and (max-width: 854px) {
+  .survey-name-field > input {
+      width: 33rem;
+  }
+  .survey-name-field {
+    margin-right: 0;
+    width: 93%;
+  }
+  .heading-container {
+    margin-right: 0;
+  }
+  .heading-container > h1 {
+    font-size: 2.9rem;
+  }
+  .selected-tag-create {
+    width: 100%;
+  }
+  .create-next-btn {
+    margin-left: 0;
+    margin-top: 0;
+}
+.letscreate-container {
+  padding: 1rem;
+}
+}

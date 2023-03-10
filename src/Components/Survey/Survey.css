@@ -1,0 +1,37 @@
+.survey-container {
+    max-width: 100%;
+    padding: 3rem;
+    background-color: #EEEEEE;
+}
+.survey-holder {
+    box-shadow: 0 .3rem 1rem rgb(0 0 0 / 0.2);
+    background-color: #fff;
+    padding: 3rem;
+}
+.survey-holder-header {
+    display: flex;
+    justify-content: space-between;
+}
+.survey-primary-heading {
+    font-size: 2rem;
+    color: #122838;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.survey-secondary-heading {
+    font-size: 1.6rem;
+    color: #3D6AB8;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
+.survey-holder-divider {
+    border-bottom: 1px solid #DFDFDF;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 854px) {
+    .survey-container {
+        padding: 1rem;
+    }
+  }

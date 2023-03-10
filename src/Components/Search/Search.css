@@ -1,0 +1,59 @@
+.bdHMCv > .wrapper {
+  border-radius: 5px !important;
+}
+.fASA-Dv {
+  display: none !important;
+}
+.add-search-btn {
+  font-size: 1.6rem;
+  color: #fff;
+  font-family: "Poppins";
+  font-weight: 400;
+  padding: 1.1rem 1.5rem;
+  border-radius: 5px;
+  background-color: #3d6ab8;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.suggestion-text {
+  display: block;
+  text-align: left;
+  font-size: 1.8rem;
+  color: #9a9a9a;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+.jMcrRR {
+  min-height: 4.4rem !important;
+  width: 85% !important;
+}
+.pHieT .ellipsis {
+  cursor: pointer;
+}
+.tag-text-createCategories {
+  font-size: 1.5rem;
+
+  border: 1px solid #3d6ab8;
+
+  padding: 0.6rem 1.2rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  border-radius: 5rem;
+  margin-right: 1.2rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.question-field-search {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 20;
+}
+.btn-container-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

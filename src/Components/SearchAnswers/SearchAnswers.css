@@ -1,0 +1,60 @@
+.bdHMCv > .wrapper {
+  border-radius: 5px !important;
+}
+.fASA-Dv {
+  display: none !important;
+}
+.add-search-btnS {
+  font-size: 1.6rem;
+  color: #fff;
+  font-family: "Poppins";
+  font-weight: 400;
+  padding: 1.1rem 1.5rem;
+  border-radius: 5px;
+  background-color: #3d6ab8;
+  border: none;
+  cursor: pointer;
+  height: 25px;
+  width: 17%;
+}
+.suggestion-text {
+  display: block;
+  text-align: left;
+  font-size: 1.8rem;
+  color: #9a9a9a;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+.jMcrRR {
+  min-height: 4.4rem !important;
+}
+.wrapper {
+  position: relative;
+  z-index: 9999;
+}
+.answer-input {
+  margin-left: 1.5rem;
+  width: 100%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #d8d8d8;
+  padding-bottom: 1rem;
+  font-size: 1.6rem;
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #9a9a9a;
+}
+.bdHMCv {
+  width: 100%;
+}
+.type-answer-section2-search {
+  border: 1px dashed #3d6ab8;
+  border-radius: 8px;
+
+  margin-top: 1rem;
+  height: 9vh;
+  padding: 2.5rem 0;
+  padding-top: 2px;
+  padding-bottom: 1rem;
+}

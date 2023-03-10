@@ -1,0 +1,114 @@
+.searchInputs {
+  /* margin-top: 105px; */
+  display: flex;
+  background-color: #ffffff;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* /   height: "44px",
+  //   border: "1px solid #dfe1e5",
+  //   borderRadius: "24px",
+  //   backgroundColor: "white",
+  //   boxShadow: "rgba(32, 33, 36, 0.28) 0px 1px 6px 0px",
+  //   hoverBackgroundColor: "#eee",
+  //   color: "#212121",
+  //   fontSize: "16px",
+  //   fontFamily: "Arial",
+  //   iconColor: "grey",
+  //   lineColor: "rgb(232, 234, 237)",
+  //   placeholderColor: "grey",
+  //   clearIconMargin: '3px 14px 0 0',
+  //   searchIconMargin: '0 0 0 16px' */
+
+.search {
+  /* height: 44px; */
+  border: 1px dashed #3d6ab8;
+
+  background-color: white;
+  padding: 1.5rem 3rem;
+  border-radius: 8px;
+
+  font-size: 18px;
+  padding: 15px;
+  height: 40px;
+  width: 100%;
+  /* position: relative; */
+
+  margin-top: 10px;
+}
+
+.searchIcon {
+  height: 60px;
+  width: 50px;
+  background-color: white;
+  display: grid;
+  place-items: center;
+}
+
+input:focus {
+  outline: none;
+}
+.searchIcon svg {
+  font-size: 35px;
+}
+
+.dataResult {
+  margin-top: 20px;
+
+  width: 100%;
+
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+  position: absolute;
+}
+
+.dataResult::-webkit-scrollbar {
+  display: none;
+}
+
+.dataResult .dataItem {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  color: black;
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+.seachInput2 {
+  width: 80%;
+  border: 0;
+}
+
+.dataItem p {
+  margin-left: 10px;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: lightgrey;
+}
+
+#clearBtn {
+  cursor: pointer;
+}
+.addQuestionButton {
+  font-size: 1.3rem;
+  color: #fff;
+  font-family: "Poppins";
+  font-weight: 400;
+  padding: 3px;
+  height: 35px;
+  width: 120px;
+  border-radius: 5px;
+  background-color: #3d6ab8;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,79 @@
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+
+.Form {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Form h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 2.8rem;
+}
+
+.TagForm input {
+    width: 55rem;
+    font-size: 1.6rem;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: #122838;
+    padding: 1.3rem 2rem;
+    border-radius: 8px;
+    border: 2px solid #D8D8D8;
+}
+
+.TagForm {
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.TagList {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.Tag {
+    font-size: 1.1rem;
+    color: #FFFFFF;
+    border: 1px solid #3D6AB8;
+    background-color: #3D6AB8;
+    padding: .6rem 1.2rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    border-radius: 5rem;
+    margin-right: 1.2rem;
+}
+
+.Tag:not(:last-child) {
+  margin-right: .8rem;
+}
+
+.InputIcon {
+  padding-right: .8rem;
+  padding-left: .8rem;
+  color: #7a7a7a;
+}
+.tag-add-btn {
+    font-size: 1.4rem;
+    font-family: "Poppins";
+    font-weight: 300;
+    color: #fff;
+    background-color: #3D6AB8;
+    padding: .4rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-left: -7.2rem;
+    cursor: pointer;
+}
